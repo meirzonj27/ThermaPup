@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ThermaPup | K9HeatGuard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <img src="thermapup-logo.png" alt="ThermaPup logo" class="logo-image" />
+        <div class="logo-text">
+          <span class="logo-company">ThermaPup</span>
+          <span class="logo-tagline">“Because every degree matters”</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#product">Product</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#process">Our Process</a></li>
+          <li><a href="#science">The Science</a></li>
+          <li><a href="#team">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>K9HeatGuard by ThermaPup</h1>
+          <p class="hero-subtitle">
+            A smart wearable that monitors your dog’s temperature and vitals,
+            sending real-time text alerts so you can prevent overheating before it happens.
+          </p>
+          <div class="hero-cta">
+            <a href="#product" class="btn primary">Explore the product</a>
+            <a href="#process" class="btn secondary">See our STEM process</a>
+          </div>
+          <div class="hero-note">
+            Designed as a STEM project to tackle a real-world problem: heat stress in dogs.
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="device-card">
+            <div class="device-dog">
+              <div class="dog-icon">🐾</div>
+              <div class="dog-name">Buddy · Medium Breed</div>
+            </div>
+            <div class="device-stats">
+              <div class="stat">
+                <span class="stat-label">Core temp</span>
+                <span class="stat-value ok">101.8°F</span>
+              </div>
+              <div class="stat">
+                <span class="stat-label">Heart rate</span>
+                <span class="stat-value ok">85 bpm</span>
+              </div>
+              <div class="stat">
+                <span class="stat-label">Activity</span>
+                <span class="stat-value">Light play</span>
+              </div>
+            </div>
+            <div class="device-alert">
+              <span class="dot"></span>
+              Text to owner: “All clear. Buddy’s temperature is in the safe zone.”
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT -->
+    <section id="product" class="section section-alt">
+      <div class="container two-column">
+        <div>
+          <h2>What is K9HeatGuard?</h2>
+          <p>
+            K9HeatGuard is a smart collar attachment designed to continuously
+            monitor a dog’s body temperature and vital signs. When readings leave
+            the safe range, the system sends instant text alerts to the owner.
+          </p>
+          <p>
+            Our goal is to reduce the risk of heat stroke, dehydration, and other
+            temperature-related health emergencies in dogs—especially during hot
+            weather, car rides, or intense exercise.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <h3>Real-time monitoring</h3>
+            <p>
+              Sensors track temperature and heart rate every few seconds,
+              creating a live picture of your dog’s health.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Text message alerts</h3>
+            <p>
+              If your dog approaches unsafe temperature ranges, K9HeatGuard sends
+              a clear, simple text so you can act fast.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Comfortable & lightweight</h3>
+            <p>
+              Designed to clip onto a normal collar with soft materials that
+              don’t bother the dog while playing or resting.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Data-informed care</h3>
+            <p>
+              Logs of temperature and activity help owners understand how weather,
+              exercise, and environment affect their dog.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works" class="section">
+      <div class="container">
+        <h2>How K9HeatGuard Works</h2>
+        <div class="steps-grid">
+          <div class="step">
+            <span class="step-number">1</span>
+            <h3>Wearable sensor module</h3>
+            <p>
+              A small module on the collar measures temperature and heart rate
+              using contact sensors placed against the dog’s fur.
+            </p>
+          </div>
+          <div class="step">
+            <span class="step-number">2</span>
+            <h3>On-board microcontroller</h3>
+            <p>
+              A microcontroller reads the sensor data, filters out noise, and
+              checks it against safe ranges based on veterinarian guidelines.
+            </p>
+          </div>
+          <div class="step">
+            <span class="step-number">3</span>
+            <h3>Wireless connection</h3>
+            <p>
+              The device sends readings to a connected hub or phone, which prepares
+              alerts if anything looks risky.
+            </p>
+          </div>
+          <div class="step">
+            <span class="step-number">4</span>
+            <h3>SMS alerts to owner</h3>
+            <p>
+              If temperature leaves the safe zone, the system sends a text message
+              including the dog’s status and recommended actions.
+            </p>
+          </div>
+        </div>
+
+        <div class="callout">
+          <h3>Example Alert Message</h3>
+          <p>
+            “Alert from K9HeatGuard: Luna’s body temperature is 104.1°F (high).
+            Move her to shade, offer cool (not ice-cold) water, and contact a vet
+            if she doesn’t cool down within a few minutes.”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS / STEM DESIGN -->
+    <section id="process" class="section section-alt">
+      <div class="container">
+        <h2>Our STEM Design Process</h2>
+        <p class="section-intro">
+          K9HeatGuard started as a STEM class project. Our challenge was to use
+          engineering and technology to solve a real-world problem. Here’s how we
+          applied the engineering design process.
+        </p>
+
+        <div class="process-grid">
+          <article class="process-step">
+            <h3>1. Identify the problem</h3>
+            <p>
+              We researched how often dogs suffer from heat stroke and learned that
+              many cases happen because owners don’t realize their dog is overheating
+              until it’s too late.
+            </p>
+            <p>
+              We defined our problem as: <strong>“How can we give dog owners an
+              early warning before their pet’s temperature becomes dangerous?”</strong>
+            </p>
+          </article>
+
+          <article class="process-step">
+            <h3>2. Research & brainstorm</h3>
+            <p>
+              We studied basic canine biology, safe temperature ranges, and existing
+              pet wearables. We brainstormed ideas like cooling vests, smart bowls,
+              and sensor collars.
+            </p>
+            <p>
+              We chose a collar-mounted sensor because it would work in many
+              environments (indoors, outdoors, in the car, or at the park).
+            </p>
+          </article>
+
+          <article class="process-step">
+            <h3>3. Plan the solution</h3>
+            <p>
+              We sketched diagrams showing how sensors, the microcontroller, power
+              supply, and wireless connection would fit together.
+            </p>
+            <p>
+              We also planned what information the text alerts should include so
+              they would be clear and helpful during a stressful moment.
+            </p>
+          </article>
+
+          <article class="process-step">
+            <h3>4. Build prototypes</h3>
+            <p>
+              Using classroom materials, we created a non-functioning physical model
+              of the collar attachment and a mocked-up phone screen showing sample
+              SMS alerts and data graphs.
+            </p>
+            <p>
+              If we were building a working prototype, we would use temperature
+              sensors, a microcontroller board, a battery, and an SMS or Bluetooth
+              module.
+            </p>
+          </article>
+
+          <article class="process-step">
+            <h3>5. Test & improve</h3>
+            <p>
+              We tested our design by walking through real-life scenarios: hot days,
+              car rides, and high-energy play. We asked:
+            </p>
+            <ul>
+              <li>Would the owner get the alert early enough?</li>
+              <li>Are the instructions in the message easy to follow?</li>
+              <li>Is the collar comfortable and secure for the dog?</li>
+            </ul>
+            <p>
+              Based on feedback, we improved the wording of alerts and adjusted where
+              the sensor sits on the collar.
+            </p>
+          </article>
+
+          <article class="process-step">
+            <h3>6. Reflect & next steps</h3>
+            <p>
+              We reflected on what went well—such as identifying a real need—and
+              what we would improve with more time, like testing with more dog
+              sizes and fur types.
+            </p>
+            <p>
+              In a future version, we’d like to add a mobile app, GPS tracking, and
+              a vet dashboard for professional monitoring.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCIENCE / SAFETY -->
+    <section id="science" class="section">
+      <div class="container two-column">
+        <div>
+          <h2>The Science Behind Heat Safety</h2>
+          <p>
+            Dogs can’t cool themselves as efficiently as humans. They mostly rely
+            on panting and a small amount of sweating through their paw pads.
+            Because of this, their body temperature can rise quickly in hot
+            environments.
+          </p>
+          <p>
+            Veterinarians say that a normal dog temperature is usually around
+            101–102.5°F. Temperatures above this range, especially over 104°F,
+            can be dangerous and may lead to heat exhaustion or heat stroke.
+          </p>
+        </div>
+        <div class="info-card">
+          <h3>What K9HeatGuard Watches For</h3>
+          <ul class="info-list">
+            <li><strong>Rising core temperature</strong> beyond the normal safe range.</li>
+            <li><strong>Fast heart rate</strong> that could signal stress or overheating.</li>
+            <li><strong>Patterns over time</strong>, such as how quickly a dog heats up on a walk.</li>
+            <li><strong>Sudden spikes</strong> that might mean the dog is in trouble.</li>
+          </ul>
+          <p class="info-note">
+            K9HeatGuard is not meant to replace a veterinarian—it is designed to
+            help owners notice problems sooner.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM / ABOUT -->
+    <section id="team" class="section section-alt">
+      <div class="container">
+        <h2>About ThermaPup</h2>
+        <p class="section-intro">
+          ThermaPup is a student-created company built for a STEM class project.
+          Our mission is to use science and technology to make life safer and more
+          comfortable for pets and the people who love them.
+        </p>
+        <div class="team-grid">
+          <div class="team-card">
+            <h3>Our Mission</h3>
+            <p>
+              To reduce preventable heat-related emergencies in dogs by giving
+              owners better information in real time.
+            </p>
+          </div>
+          <div class="team-card">
+            <h3>Our Values</h3>
+            <ul>
+              <li>Combine empathy with engineering.</li>
+              <li>Design for real-world situations.</li>
+              <li>Keep pets’ comfort and safety first.</li>
+            </ul>
+          </div>
+          <div class="team-card">
+            <h3>Class Project Notes</h3>
+            <p>
+              This website and product concept were created for a STEM assignment.
+              Feel free to customize names, photos, and details to match your
+              specific team and presentation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CREATORS -->
+    <section id="creators" class="section">
+      <div class="container">
+        <h2>Meet the Creators</h2>
+        <p class="section-intro">
+          K9HeatGuard was brought to life by two students who combined coding, CAD design,
+          and a lot of brainstorming to create a safer world for dogs.
+        </p>
+        <div class="creators-grid">
+          <article class="creator-card">
+            <div class="creator-photo">
+              <img src="jackson-meirzon.png" alt="Portrait of Jackson Meirzon" />
+            </div>
+            <div class="creator-body">
+              <h3 class="creator-name">Jackson Meirzon</h3>
+              <p class="creator-role">iPhone integration · Fusion modeling · Website</p>
+              <p>
+                Jackson worked on the code that allows the K9HeatGuard collar device to
+                communicate with the iPhone app, focusing on compatibility and reliable
+                data transfer. He also helped build the physical product in Fusion and
+                contributed to the design and content of this website.
+              </p>
+            </div>
+          </article>
+
+          <article class="creator-card">
+            <div class="creator-photo">
+              <img src="avi-kutten.png" alt="Portrait of Avi Kutten" />
+            </div>
+            <div class="creator-body">
+              <h3 class="creator-name">Avi Kutten</h3>
+              <p class="creator-role">Sensor circuitry · Fusion modeling · Website</p>
+              <p>
+                Avi developed the code and circuit for the thermometer and its sensors,
+                making sure the device could accurately read and respond to changes in a
+                dog’s temperature. He also helped build the physical product in Fusion
+                and collaborated on the structure and visuals of the website.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>ThermaPup · K9HeatGuard · STEM Design Project</p>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
